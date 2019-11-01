@@ -1,0 +1,49 @@
+name = HOPE Directory Theme
+description =  
+
+engine = phptemplate
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/media.css
+scripts[] = js/custom.js
+
+regions[user_menu]  	 = User menu
+regions[front_welcome]   = Front Welcome
+regions[highlights]   	 = Highlights
+regions[description]   	 = Description
+regions[top_first]       = First top
+regions[top_second]      = Second top
+regions[top_third]       = Third top
+regions[sidebar_first]   = First Sidebar
+regions[sidebar_second]  = Second Sidebar
+regions[featured]        = Featured
+regions[content]         = Content
+regions[slideshow]       = Slideshow
+regions[bottom_widget_1] = Bottom widget 1
+regions[bottom_widget_2] = Bottom widget 2
+regions[bottom_widget_3] = Bottom widget 3
+regions[contact]         = Contact
+regions[footer_first]    = First Bottom
+regions[footer_second]   = Second Bottom
+regions[footer_third]    = Third Bottom
+regions[footer_forth]    = Forth Bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[color_scheme] = Default
+
+settings[breadcrumbs]  = 1
+settings[social_links]  = 1
+settings[twitter_url] = ""
+settings[facebook_url] = ""
+settings[gplus_profile_url] = ""
+settings[linkedin_profile_url] = ""
+settings[pinterest_profile_url] = ""
+settings[youtube_profile_url] = ""
